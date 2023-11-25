@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display and Positioning</title>
+  </head>
+  <body>
+    <h1 class="title">Styling Cheatsheet</h1>
+    <section class="display">
+      <h2>CSS Display Property</h2>
+      <article class="block">
+        <h3>block</h3>
+        <p>
+          <i>Block-level elements</i> take up the
+          <strong class="highlight_1">
+            full width of their container with line breaks before and after </strong
+          >, and can have their height and width manually adjusted.
+        </p>
+        <div class="diagram-container">
+          <div>one</div>
+          <div>two</div>
+          <div class="adjusted">three *I have had my width adjusted*</div>
+        </div>
+      </article>
+      <article class="inline">
+        <h3>inline</h3>
+        <p>
+          <i>Inline elements</i> take up as
+          <strong class="highlight_1">
+            little space as possible, flow horizontally,
+          </strong>
+          and cannot have their width or height manually adjusted.
+        </p>
+        <div class="diagram-container">
+          <div>one</div>
+          <div>two</div>
+          <div>three</div>
+        </div>
+      </article>
+      <article class="inline-block">
+        <h3>inline-block</h3>
+        <p>
+          <i>Inline-block </i> elements can appear next to each other, and
+          <strong class="highlight_1">
+            can have their width and height manually adjusted.
+          </strong>
+        </p>
+        <div class="diagram-container">
+          <div>one</div>
+          <div class="height-adjusted">two</div>
+          <div class="width-adjusted">three</div>
+        </div>
+      </article>
+    </section>
+    <section class="position">
+      <h2>CSS Position Property</h2>
+      <article class="static">
+        <h3>static</h3>
+        <p>
+          HTML elements are positioned
+          <strong class="highlight_1">static by default.</strong> Static
+          positioned elements are
+          <strong class="highlight_1">
+            not affected by the top, bottom, left, and right properties.</strong
+          >
+          An element with position: static; is not positioned in any special
+          way; it is always positioned according to the normal flow of the page:
+        </p>
+        <div></div>
+      </article>
+      <article class="relative">
+        <h3>relative</h3>
+        <p>
+          An element with <code> position: relative;</code>
+          <strong class="highlight_1">
+            is positioned relative to its normal position.</strong
+          >
+          Setting the top, right, bottom, and left properties of a
+          relatively-positioned element will cause it to be adjusted away from
+          its normal position.
+          <strong
+            >Other content will not be adjusted to fit into any gap left by the
+            element.
+          </strong>
+        </p>
+      </article>
+      <article class="absolute">
+        <h3>absolute</h3>
+        <p>
+          An element with <code> position: absolute;</code> ignore sibling
+          elements and instead be positioned
+          <strong class="highlight_1">
+            relative to its closest parent element that is positioned with
+            relative or absolute.
+          </strong>
+          The absolute value removes an element entirely from the document flow.
+          By using the positioning attributes top, left, bottom and right, an
+          element can be positioned anywhere as expected.
+        </p>
+      </article>
+      <article class="fixed">
+        <h3>fixed</h3>
+        <p>
+          When the CSS position has a value of fixed, it is set/pinned to a
+          specific spot on a page.
+          <strong class="highlight_1">
+            The fixed element stays the same regardless of scrolling.
+          </strong>
+          The navigation bar is a great example of an element that is often set
+          to position: fixed;, enabling the user to scroll through the web page
+          and still access the navigation bar.
+        </p>
+        <div class="fixed-element">
+          Hey wassup, I've been fixed to this position in the viewport
+        </div>
+      </article>
+      <article class="sticky">
+        <h3>sticky</h3>
+        <p>
+          A sticky element toggles
+          <strong class="highlight_1">between relative and fixed </strong> ,
+          depending on the scroll position. It is positioned relative until a
+          given offset position is met in the viewport - then it "sticks" in
+          place (like <code>position:fixed </code>).
+        </p>
+        <div class="sticky-container"></div>
+      </article>
+    </section>
+  </body>
+</html>
