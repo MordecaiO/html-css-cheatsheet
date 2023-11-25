@@ -64,6 +64,44 @@ section {
 .width-adjusted {
   width: 80px;
 }
+.relative .diagram-container {
+  display: inline-block;
+}
+.box1 {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #f08080;
+  margin: 20px;
+}
 
-.sticky-container {
+.box2 {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  background-color: #f08080;
+}
+
+.box2-rel {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  background-color: #f08080;
+  position: relative;
+  top: 30px;
+}
+
+.diagram-caption {
+  margin: 20px;
+  text-decoration: underline;
+}
+
+.box2-rel2 {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  background-color: #f08080;
+  position: relative;
+  top: 30px;
+  left: 30px;
 }
