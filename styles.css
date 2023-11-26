@@ -1,5 +1,5 @@
 body {
-  margin: 0px 500px;
+  margin: 0px 300px;
 }
 
 /* title */
@@ -74,6 +74,10 @@ section {
 }
 .relative .diagram-container {
   display: inline-block;
+  border: 2px solid red;
+  height: 150px;
+  width: 200px;
+  position: relative;
 }
 .box1 {
   display: inline-block;
@@ -100,11 +104,14 @@ section {
 }
 
 .diagram-caption {
-  margin: 20px;
+  /* margin: 20px 20px 0px 20px; */
   text-decoration: underline;
+  position: absolute;
+  bottom: 3px;
+  left: 40px;
 }
 
-.box2-rel2 {
+#box2-rel2 {
   display: inline-block;
   width: 80px;
   height: 30px;
@@ -112,4 +119,37 @@ section {
   position: relative;
   top: 30px;
   left: 30px;
+}
+
+.absolute .diagram-container {
+  display: inline-block;
+  border: 2px solid red;
+  height: 150px;
+  width: 200px;
+  position: relative;
+}
+
+#diagram-container-relative {
+  display: inline-block;
+  border: 2px solid red;
+  position: relative;
+  width: 200px;
+  height: 150px;
+}
+
+#box2-abs {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  background-color: #f08080;
+  position: absolute;
+  top: 60px;
+  right: 0px;
+}
+
+#box2-abs2 {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  background-color: #f08080;
 }
