@@ -1,5 +1,6 @@
 body {
   margin: 0px 300px;
+  font-family: "DM Sans", sans-serif;
 }
 
 /* title */
@@ -146,7 +147,7 @@ section {
   position: absolute;
   top: -27px;
   left: 6px;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bold;
 }
 
