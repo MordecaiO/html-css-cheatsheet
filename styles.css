@@ -48,7 +48,7 @@ section {
 .adjusted {
   width: 30%;
 }
-
+/* inline section */
 .inline .diagram-container div {
   background-color: lightcoral;
   border-radius: 2px;
@@ -56,7 +56,7 @@ section {
   padding: 5px;
   display: inline;
 }
-
+/* inline block section */
 .inline-block .diagram-container div {
   background-color: lightcoral;
   border-radius: 2px;
@@ -72,6 +72,8 @@ section {
 .width-adjusted {
   width: 80px;
 }
+
+/* relative positioning section */
 .relative .diagram-container {
   display: inline-block;
   border: 2px solid red;
@@ -104,7 +106,6 @@ section {
 }
 
 .diagram-caption {
-  /* margin: 20px 20px 0px 20px; */
   text-decoration: underline;
   position: absolute;
   bottom: 3px;
@@ -120,7 +121,11 @@ section {
   top: 30px;
   left: 30px;
 }
+/* absolute position section */
 
+.absolute p {
+  margin-bottom: 30px;
+}
 .absolute .diagram-container {
   display: inline-block;
   border: 2px solid red;
@@ -135,6 +140,14 @@ section {
   position: relative;
   width: 200px;
   height: 150px;
+}
+
+.diagram-note {
+  position: absolute;
+  top: -27px;
+  left: 6px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 #box2-abs {
@@ -152,4 +165,6 @@ section {
   width: 80px;
   height: 30px;
   background-color: #f08080;
+  position: absolute;
+  top: 0px;
 }
