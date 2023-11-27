@@ -9,6 +9,11 @@ h1 {
   margin: 20px auto;
   text-align: center;
 }
+
+/* .ref-link {
+  text-decoration: none;
+  color: #f08080;
+} */
 h2 {
   border-bottom: 1px solid rgb(232, 234, 237);
   padding-bottom: 4px;
