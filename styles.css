@@ -44,6 +44,7 @@ section {
   font-size: small;
 }
 /*block section*/
+
 .block .diagram-container div {
   background-color: lightcoral;
   border-radius: 2px;
@@ -55,6 +56,7 @@ section {
   width: 30%;
 }
 /* inline section */
+
 .inline .diagram-container div {
   background-color: lightcoral;
   border-radius: 2px;
@@ -63,6 +65,7 @@ section {
   display: inline;
 }
 /* inline block section */
+
 .inline-block .diagram-container div {
   background-color: lightcoral;
   border-radius: 2px;
