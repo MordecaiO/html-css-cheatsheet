@@ -113,6 +113,7 @@ section {
   height: 30px;
   background-color: #f08080;
   position: relative;
+  border-radius: 2px;
   top: 30px;
 }
 
@@ -129,6 +130,7 @@ section {
   height: 30px;
   background-color: #f08080;
   position: relative;
+  border-radius: 2px;
   top: 30px;
   left: 30px;
 }
@@ -166,6 +168,7 @@ section {
   width: 80px;
   height: 30px;
   background-color: #f08080;
+  border-radius: 2px;
   position: absolute;
   top: 60px;
   right: 0px;
@@ -176,6 +179,7 @@ section {
   width: 80px;
   height: 30px;
   background-color: #f08080;
+  border-radius: 2px;
   position: absolute;
   top: 0px;
 }
