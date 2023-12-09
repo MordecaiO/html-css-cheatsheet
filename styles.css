@@ -213,3 +213,11 @@ section {
 #overflow-text {
   margin: 40px 10px 5px 10px;
 }
+
+/* Links and Buttons */
+
+#title-button {
+  height: 2.5em;
+  width: 5em;
+  font-size: medium;
+}
