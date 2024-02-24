@@ -221,3 +221,23 @@ section {
   width: 5em;
   font-size: medium;
 }
+
+.grid-container {
+  border: 2px solid red;
+  height: 200px;
+  width: 350px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 5px;
+  margin: 10px;
+}
+
+.gridbox1,
+.gridbox2,
+.gridbox3,
+.gridbox4 {
+  border: 2px solid red;
+  margin: 2px;
+  min-width: 25%;
+}
